@@ -87,9 +87,14 @@ body {
   color: #fff;
   background-color: var(--fill);
   cursor: pointer;
+  outline: none;
 }
 
 .btn:disabled {
   background-color: var(--empty);
   cursor: not-allowed;
+}
+
+.btn:active {
+  outline: none;
 }
